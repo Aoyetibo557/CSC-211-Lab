@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/Pic5.jpg);
+}
+.container{
+    /* display: flex; */
+    flex-wrap:wrap;
+    flex-basis: 33%;
+    flex-grow: 1;
+} 
+ 
+header{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    padding: 5px 20px;
+}
+
+header>h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 3px 7px 7px teal;
+}
+header h2>span{
+    text-decoration: underline;
+    font-style: italic;
+    color: teal;
+}
+header ul>li{
+    list-style: none;
+    display: inline-flex;
+}
+header li>a{
+    padding:40px 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+header li>a:hover{
+    color: green;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;;
+    margin: 15px 50px;
+    width: 30%;  
+}
+article h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+article p{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 28px;
+    font-weight: bold;
+}
+article p>a{
+    color: gray;
+    text-decoration: none;
+}
+article p>a:hover{
+    color: white;
+    text-decoration: underline;
+}
+form{
+    padding: 5px 20px;
+}
+form > label{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: bold;
+    font-size: 23px;
+}
+form >input{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    padding: 3px;
+    border: transparent;
+    border-radius: 10px;
+}
+form >button{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    background-color: red;
+    border: transparent;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+form >button:hover{
+  color: white;
+  padding:3px 6px;
+  transition: 0.4s;
+
+}
+   
+@media screen and (min-width: 737px){
+    .container{
+        display: flex;
+    }
+} 
