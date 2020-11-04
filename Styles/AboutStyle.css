@@ -5,7 +5,7 @@ body{
     background-position: center;
     /* padding-bottom: 25%; */
     background-size: cover;
-    background-image: url(images/Pic6.jpg);
+    background-image: url(images/Pic6.jpg) #555;
 }
 header{
     background-color: whitesmoke;

@@ -4,3 +4,5 @@ This page is a static page with limited features, designed and built for an intr
 Work of Art: The main idea was to create a store where buyers and collectors could purchase immpecible replicas of famous art and put on display in thier homes or wherever they please.
 @author: O.A.G Studios
 @Published 08/19
+
+Deployed on Heroku @ https://w-o-a.herokuapp.com/catalouge.html
