@@ -5,4 +5,5 @@ Work of Art: The main idea was to create a store where buyers and collectors cou
 @author: O.A.G Studios
 @Published 08/19
 
-Deployed on Heroku @ https://w-o-a.herokuapp.com/catalouge.html
+Deployed on Heroku @  # https://w-o-a.herokuapp.com
+
